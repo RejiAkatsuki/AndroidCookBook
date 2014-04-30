@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">Cook Book Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Cook Book</string>
+    <string name="name1">Cook Book</string>
+    <string name="error">Cannot load the image</string>
+    <string name="dish">Menu</string>
+    <string name="appetizer_001">Bruschetta with Tomato and Basil</string>
+    <string name="pretime_a_001">15 minutes</string>
+    <string name="pretime">Prep time:</string>
+    <string name="cook_a_time">10 minutes</string>
+    <string name="cooktime">Cook time:</string>
+    <string name="Ingredients">INGREDIENTS</string>
+    <string name="search">Search</string>
+    <string name="searchField">enter text</string>
+    <string name="searchButton">Search</string>
+    <string name="menuListSearch">Menu List</string>
+
+    <string-array name="menu_list">
+        <item>Appetizer</item>
+        <item>Bakery</item>
+        <item>Breakfast and Brunch</item>
+        <item>Casserole</item>
+        <item>Cookies</item>
+        <item>Dessert</item>
+        <item>Main Course</item>
+        <item>Salad</item>
+        <item>Sandwich</item>
+        <item>Side Dish</item>
+        <item>Soup and Stew</item>
+    </string-array>
+    <string name="new_re">New Recipes</string>
+    <string name="top">Top Rate Recipes</string>
+    <string name="method">Method</string>
+
+</resources>

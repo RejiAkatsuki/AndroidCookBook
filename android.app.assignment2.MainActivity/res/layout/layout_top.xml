@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/notebook" >
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dip"
+        android:paddingTop="20dip"
+        android:text="@string/top"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu"
+        android:padding="5dip" >
+
+        <LinearLayout
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dip"
+            android:padding="3dip"
+            android:paddingLeft="20dip" >
+
+            <ImageView
+                android:id="@+id/list_image"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:contentDescription="@string/error"
+                android:src="@drawable/a_001" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/thumbnail"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="@string/appetizer_001"
+            android:textColor="#040404"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <RatingBar
+            android:id="@+id/rate"
+            style="@style/rating_cookie_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:layout_below="@id/title"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dip"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="3.5" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_top_rate"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/menu" >
+    </ListView>
+
+</RelativeLayout>

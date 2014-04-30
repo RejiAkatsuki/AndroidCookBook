@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/notebook"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/layoutswitcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dip" >
+
+        <RelativeLayout
+            android:id="@+id/main_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="250dip"
+                android:layout_height="250dip"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/error"
+                android:paddingTop="30dip"
+                android:src="@drawable/pasta1" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="300dip"
+                android:layout_height="100dip"
+                android:layout_below="@id/image1"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/error"
+                android:paddingLeft="12dp"
+                android:paddingTop="15dip"
+                android:src="@drawable/cook" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/menu_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dip"
+                android:paddingTop="20dip"
+                android:text="@string/dish"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/listmenu"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/menu" >
+            </ListView>
+
+            <Button
+                android:id="@+id/search_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/listmenu"
+                android:layout_alignParentRight="true"
+                android:text="@string/searchButton" />
+        </RelativeLayout>
+    </ViewFlipper>
+
+</LinearLayout>

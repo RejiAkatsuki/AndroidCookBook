@@ -1,0 +1,12 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="rating_cookie_bar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_cookie</item>
+        <item name="android:minHeight">32dip</item>
+        <item name="android:maxHeight">32dip</item>
+    </style>
+    
+
+</resources>

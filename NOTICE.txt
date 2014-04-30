@@ -1,0 +1,24 @@
+COSC2543 Mobile Application Development
+Assignment 2
+--------------------------------------
+
+Student name: Phan Thanh San (S3342133)
+Student name: Dinh Tuan Vu (S3296761)
+
+--------------------------------------
+
+Acknowledgement
+This is an Android Software call Cook Book, which provide user the 
+opportunities to search for different type of recipies.
+
+--------------------------------------
+
+Reference
+
+the view flipper code used in the Cook Book application is research from
+
+Developers, Android 4.1 r1, 14 Aug 2012, viewed 1st September 2012, URL<http://developer.android.com/reference/android/widget/ViewFlipper.html>
+
+and
+
+Francesco Lo Truglio, Web Developer and Project Manager, Android: View Flipper animation, 30 Mar 2010, viewed 1st September 2012, URL<http://www.codeproject.com/Articles/69008/Android-ViewFlipper-Touch-Animation-like-News-Weat>
